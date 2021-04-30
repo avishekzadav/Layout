@@ -1,0 +1,308 @@
+*{
+    box-sizing:content-box;
+}
+.container{
+    width: 1424px;
+    height: 680px;
+    background-image: url(images/forest.jpeg) 
+}
+.topleft{
+    position: absolute;
+    top: 20px;
+    left: 20px;   
+}
+.topleft a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.topright{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+ul li:hover a{
+    color: violet;
+}
+.centered{
+    width: 800px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered h2{
+    font-family:serif;
+    font-size:28px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.centered h1{
+    font-size: 48px;
+    font-family: serif;
+    letter-spacing: 2px;
+    margin: 11px 0 20px;
+
+}
+p{
+    color:rgba(255, 255, 255, 0.979);
+    line-height: 30px;
+    font-family:fantasy;
+    letter-spacing: 2px;
+}
+button{
+    background-color:whitesmoke;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 20px;
+    border: 3px solid;
+    background-color:blanchedalmond;
+}
+button:hover{
+    color: wheat;
+    background-color:black;
+}
+.about{
+    /* background-color: aqua; */
+    margin-top: 70px;
+    
+    
+}
+.about h3{
+    color: rgba(117, 209, 129, 0.993);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.about h2{
+    text-align: center;
+    margin-top: 0px;
+}
+.about p{
+    
+    color: black;
+    font-size: 15px;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+img{
+    height: 450px;
+    width: 280px;
+    position: absolute;
+    left: 20vw;
+}
+.aboutus{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.left{
+    height: 450px;
+    width: 40%;
+    /* background-color: burlywood; */
+}
+
+.right{
+    height: 450px;
+    width: 60%;
+    /* background-color:cadetblue; */
+}
+.demo{
+    width: 90%;
+    padding:0 40px;
+    line-height: 20px; 
+    position: relative;
+    bottom: 20px;
+    
+}
+.demo h3{
+    color: rgba(117, 209, 129, 0.993);
+    text-align: start;
+}
+.demo p{
+    font-size:14px;
+    font-family:fantasy;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.services{
+    width: 1424px;
+    height: 680px;
+    background-image: url(images/b1.jpeg);
+    margin-top: 90px;
+}
+.box{
+    width: 1110px;
+    height: 624px;
+    /* background-color: yellowgreen; */
+    padding: 48px 15px;
+    margin: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}  
+.boxleft{
+    width: 50%;
+    height:80px;
+    /* background-color: violet; */
+}
+.box p{
+    font-family:fantasy;
+    text-align: right;
+    font-size: 15px;
+    padding-right:30px;
+   }
+.boxright{
+    width: 50%;
+    height:80px;
+    /* background-color: tomato; */
+}
+.box h3{
+    color: rgba(117, 209, 129, 0.993);
+    /* background-color: black;  */
+    font-size: 25px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin: 0px 0 0 0;
+    letter-spacing: 2px;
+}
+.box h2{
+    height: 51px;
+    font-size: 50px;
+    /* background-color: green; */
+    margin-top: 4px;
+    color: white;
+    letter-spacing: 2px;
+}
+.row{
+display:flex;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+.item{
+    width: 350px;
+    height: 230px;
+    background-color:white;
+    margin:10px;
+    text-align: center;
+    display: inline-block;
+}
+.icon{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(223, 41, 41);
+    padding: 30px;
+    border-radius: 30%;
+}   
+.planting h4{
+    color:rgba(117, 209, 129, 0.993);;
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.planting p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.wildlife h4{
+    color: rgba(117, 209, 129, 0.993);
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.wildlife p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.saveplant h4{
+    color: rgba(117, 209, 129, 0.993);
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.saveplant p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.watering h4{
+    color: rgba(117, 209, 129, 0.993);
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.watering p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.savetree h4{
+    color: rgba(117, 209, 129, 0.993);
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.savetree p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.ecoplant h4{
+    color: rgba(117, 209, 129, 0.993);
+    font-size: 22px;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.ecoplant p{
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 5px;
+}
